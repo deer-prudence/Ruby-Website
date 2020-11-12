@@ -1,3 +1,12 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+#cat-card {
+  flex-basis: 25%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+}

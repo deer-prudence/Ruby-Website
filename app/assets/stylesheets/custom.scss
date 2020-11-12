@@ -87,25 +87,8 @@ footer {
   background-color: #fcc603;
 }
 
-.dropdown {
-  position: relative;
-}
-
-.dropdown-content {
-  background-color: #ebb734;
-  zIndex: 99;
-  height: 100px;
-  width: 150px;
-  position: absolute;
-  font-family: "Georgia", serif;
-  color: black;
-  display: none; // do not display initially, wait for hover
-  li {
-    padding-left: 10px;
-    padding-top: 4px;
-  }
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+#nav-container {
+  color: blue;
+  align-items: center;
+  display: flex;
 }
