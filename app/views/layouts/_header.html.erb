@@ -2,10 +2,15 @@
     <div class = "container">
       <nav>
         <ul class = "nav navbar-nav navbar-right">
-          <li><%= link_to "Home", '#', id: "home_icon" %></li>
-          <li><%= link_to "Work", '#', id: "work_icon" %></li>
-          <li><%= link_to "Contact", '#', id: "contact_icon" %></li>
-          <li><%= link_to "My Cat, Donatella", '#', id: "tella_icon" %></li>
+          <div class="dropdown">
+            <button id = "menu-button">Pages</button>
+              <div class="dropdown-content">
+                <li><%= link_to "Home", root_path, id: "home_icon" %></li>
+                <li><%= link_to "Work", 'work', id: "work_icon" %></li>
+                <li><%= link_to "Contact", 'contact', id: "contact_icon" %></li>
+                <li><%= link_to "My Cat, Donatella", 'donatella', id: "tella_icon" %></li>
+              </div>
+            </div>
         </ul>
       </nav>
     </div>

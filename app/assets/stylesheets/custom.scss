@@ -1,0 +1,111 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Georgia", serif;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  font-family: "Georgia", serif;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: black;
+  font-family: "Georgia", serif;
+  
+  a {
+    color: #555;
+    &:hover {
+      color: #222;
+    }
+  }
+  small {
+    float: left;
+  }
+  
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
+
+/* PAGE NAVIGATION */
+
+#home_icon, #work_icon, #tella_icon, #contact_icon {
+  color: black;
+}
+
+.navbar {
+  background-color: #fcc603;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  background-color: #ebb734;
+  zIndex: 99;
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  font-family: "Georgia", serif;
+  color: black;
+  display: none; // do not display initially, wait for hover
+  li {
+    padding-left: 10px;
+    padding-top: 4px;
+  }
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
