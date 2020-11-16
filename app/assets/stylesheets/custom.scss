@@ -81,14 +81,49 @@ footer {
 
 #home_icon, #work_icon, #tella_icon, #contact_icon {
   color: black;
+  font-size: 1.5em;
+}
+
+g {
+  margin: 0 8px;
+  font-size: 1.5em;
 }
 
 .navbar {
-  background-color: #fcc603;
+  background-color: pink;
 }
 
-#nav-container {
-  color: blue;
-  align-items: center;
-  display: flex;
+
+/* DEBUGGING */
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
 }
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+
+
+
+$extra-large: 110px;
+$pink: #fa82cc;
+
+.cursive-text {
+    $random-text: 'Donatella';
+    position: relative;
+    top: 10px;
+    $stroke-width: $extra-large * 0.05;
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+    font-size: $extra-large;
+    color: lighten($pink, 25%);
+    -webkit-text-stroke-width: $stroke-width;
+    -webkit-text-stroke-color: lighten($pink, 5%);
+    // @include center;
+  }

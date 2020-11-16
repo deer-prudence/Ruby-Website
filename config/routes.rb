@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get '/work', to: 'static_pages#work'
   get '/contact', to: 'static_pages#contact'
   get '/donatella', to: 'static_pages#donatella'
+  resources :visitors
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
