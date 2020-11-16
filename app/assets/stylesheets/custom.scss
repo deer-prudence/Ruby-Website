@@ -1,6 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+/* GENERAL */
+
 body {
   padding-top: 60px;
 }
@@ -21,18 +24,18 @@ textarea {
 }
 
 
-/* typography */
+/* TYPOGRAPHY */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
 h1 {
-  font-size: 3em;
-  letter-spacing: 2px;
+  font-size: 3.2em;
   margin-bottom: 30px;
   text-align: center;
-  font-family: "Georgia", serif;
+  font-weight: 400;
+  font-family: "Alegreya", serif;
 }
 
 h2 {
@@ -41,13 +44,13 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  font-family: "Georgia", serif;
+  font-family: "Alegreya", serif;
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
-  font-family: "Georgia", serif;
+  font-family: "Lato", sans-serif;
 }
 
 footer {
@@ -55,7 +58,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: black;
-  font-family: "Georgia", serif;
+  font-family: "Lato", sans-serif;
   
   a {
     color: #555;
@@ -82,6 +85,7 @@ footer {
 #home_icon, #work_icon, #tella_icon, #contact_icon {
   color: black;
   font-size: 1.5em;
+  font-family: "Alegreya", serif;
 }
 
 g {
@@ -109,8 +113,6 @@ g {
   @include box_sizing;
 }
 
-
-
 $extra-large: 110px;
 $pink: #fa82cc;
 
@@ -125,5 +127,9 @@ $pink: #fa82cc;
     color: lighten($pink, 25%);
     -webkit-text-stroke-width: $stroke-width;
     -webkit-text-stroke-color: lighten($pink, 5%);
-    // @include center;
+  }
+  
+  /* TELLA PICTURES */
+  #cat-card {
+    margin-bottom: 10px;
   }
