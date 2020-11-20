@@ -5,9 +5,13 @@ class StaticPagesController < ApplicationController
   def work
   end
   
-  def contact
+  def skills
   end
   
   def donatella
   end
+  
+  def projects
+  end
+  
 end

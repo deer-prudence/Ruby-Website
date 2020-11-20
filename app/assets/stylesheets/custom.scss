@@ -25,9 +25,8 @@ textarea {
 
 
 /* TYPOGRAPHY */
-
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
+h1, h2, h3 {
+  font-family: "Alegreya", serif;
 }
 
 h1 {
@@ -35,7 +34,6 @@ h1 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: 400;
-  font-family: "Alegreya", serif;
 }
 
 h2 {
@@ -44,7 +42,6 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  font-family: "Alegreya", serif;
 }
 
 p {
@@ -82,7 +79,7 @@ footer {
 
 /* PAGE NAVIGATION */
 
-#home_icon, #work_icon, #tella_icon, #contact_icon {
+#navbar_icon {
   color: black;
   font-size: 1.5em;
   font-family: "Alegreya", serif;
@@ -112,24 +109,3 @@ g {
   margin-top: 45px;
   @include box_sizing;
 }
-
-$extra-large: 110px;
-$pink: #fa82cc;
-
-.cursive-text {
-    $random-text: 'Donatella';
-    position: relative;
-    top: 10px;
-    $stroke-width: $extra-large * 0.05;
-    font-family: 'Pacifico', cursive;
-    text-transform: uppercase;
-    font-size: $extra-large;
-    color: lighten($pink, 25%);
-    -webkit-text-stroke-width: $stroke-width;
-    -webkit-text-stroke-color: lighten($pink, 5%);
-  }
-  
-  /* TELLA PICTURES */
-  #cat-card {
-    margin-bottom: 10px;
-  }

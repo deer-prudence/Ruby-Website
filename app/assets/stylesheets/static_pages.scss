@@ -1,7 +1,11 @@
+
+/* DONATELLA PAGE */
+
 #cat-card {
   flex-basis: 25%;
   padding-left: 8px;
   padding-right: 8px;
+  margin-bottom: 10px;
 }
 
 #card-container {
@@ -10,3 +14,20 @@
   margin-left: -8px;
   margin-right: -8px;
 }
+
+
+$extra-large: 110px;
+$pink: #fa82cc;
+
+.cursive-text {
+    $random-text: 'Donatella';
+    position: relative;
+    top: 10px;
+    $stroke-width: $extra-large * 0.05;
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+    font-size: $extra-large;
+    color: lighten($pink, 25%);
+    -webkit-text-stroke-width: $stroke-width;
+    -webkit-text-stroke-color: lighten($pink, 5%);
+  }
