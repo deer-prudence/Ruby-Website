@@ -1,23 +1,14 @@
 
 /* DONATELLA PAGE */
 
-#cat-card {
-  flex-basis: 25%;
-  padding-left: 8px;
-  padding-right: 8px;
-  margin-bottom: 10px;
+.card {
+  border-color: pink;
+  border-width: 5px;
 }
-
-#card-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -8px;
-  margin-right: -8px;
-}
-
 
 $extra-large: 110px;
 $pink: #fa82cc;
+
 
 .cursive-text {
     $random-text: 'Donatella';
@@ -30,4 +21,5 @@ $pink: #fa82cc;
     color: lighten($pink, 25%);
     -webkit-text-stroke-width: $stroke-width;
     -webkit-text-stroke-color: lighten($pink, 5%);
+    -webkit-text-fill-color: pink;
   }
