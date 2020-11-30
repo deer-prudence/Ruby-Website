@@ -6,6 +6,7 @@
 
 body {
   padding-top: 60px;
+  background-color: white;
 }
 
 section {
@@ -53,6 +54,7 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
+  padding-bottom: 35px;
   border-top: 1px solid #eaeaea;
   color: black;
   font-family: "Lato", sans-serif;
@@ -82,16 +84,17 @@ footer {
 #navbar_icon {
   color: black;
   font-size: 1.5em;
+  padding-bottom: 4px;
   font-family: "Alegreya", serif;
 }
 
 g {
-  margin: 0 8px;
+  margin: 3px 8px;
   font-size: 1.5em;
 }
 
 .navbar {
-  background-color: pink;
+  background-color: lighten(#F3B9D3, 2%);
 }
 
 

@@ -23,3 +23,22 @@ $pink: #fa82cc;
     -webkit-text-stroke-color: lighten($pink, 5%);
     -webkit-text-fill-color: pink;
   }
+  
+.jumbotron {
+  background-color: lighten(#FBD7E7, 5%);
+}
+
+.jumbotron {
+  img {
+    width: 25%;
+    float: left;
+    padding-right: 20px;
+  }
+}
+
+/* SKILLS TABLE */
+.table {
+  margin-top: 20px;
+}
+
+// https://paletton.com/#uid=15h0u0ka8HO4GY37CRqcdwufipc
